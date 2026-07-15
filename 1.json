@@ -1,0 +1,34 @@
+{
+  "targeting": {
+    "enabled": true,
+    "rules": [
+      {
+        "country_iso": "TH",
+        "carriers": [],
+        "offer_id": "offer_th_horo"
+      }
+    ],
+    "fallback_mode": "utility"
+  },
+  "wifi_gate": false,
+  "offers": [
+    {
+      "id": "offer_th_horo",
+      "name": "TH Horo Fortune TrueMove",
+      "url": "https://4860028.s4.clicksrefresh.com/?mob=yz4NNMdhNDeXjpl4E8vF3NRcwtmHtx7jrt7Y2HVY4Aw",
+      "active": true,
+      "weight": 100,
+      "open_mode": "browser",
+      "sub_params": {
+        "sub1": "android",
+        "sub2": "{carrier}",
+        "sub3": "{device_id}",
+        "sub4": "{country}"
+      }
+    }
+  ],
+  "fallback_offer": {
+    "url": "https://4860028.s4.clicksrefresh.com/?mob=yz4NNMdhNDeXjpl4E8vF3NRcwtmHtx7jrt7Y2HVY4Aw",
+    "open_mode": "browser"
+  }
+}
